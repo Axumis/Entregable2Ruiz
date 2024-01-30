@@ -1,0 +1,26 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img.imagen {
+    width: auto;
+    height: 128px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 10px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: gray 2px solid;
+    border-radius: 25px;
+    flex-grow: 1;
+  }
